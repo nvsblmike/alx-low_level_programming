@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-int i;  
+int i;
 long int i2;
 long long int i3;
 char c;
