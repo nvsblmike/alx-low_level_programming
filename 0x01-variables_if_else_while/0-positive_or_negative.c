@@ -15,9 +15,12 @@ n = rand() - RAND_MAX / 2;
 *srand: function for random number
 */
 /**
-*if - it is for probabs
+*keyword for if - it is for probabs
 */
 if (n > 0)
+/**
+*comparing n with 0
+*/
 printf("%d is positive\n", n);
 else if (n == 0)
 printf("%d is zero\n", n);
