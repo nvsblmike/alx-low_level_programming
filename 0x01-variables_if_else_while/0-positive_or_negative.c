@@ -7,17 +7,11 @@
 */
 int main(void)
 {
-/**
-*short description about main
-*/
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /**
 *your code goes there
-*/
-/**
-*about if
 */
 if (n > 0)
 printf("%d is positive\n", n);
