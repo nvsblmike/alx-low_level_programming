@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
-*main - Entry point
+*main - Prints if number is positive, zero or negative
 *Return: Nothing
 */
 int main(void)
@@ -14,9 +14,6 @@ n = rand() - RAND_MAX / 2;
 *int - showing that it's an integer value
 *srand: function for random number
 *n is compared with 0
-*/
-/**
-*0 - what n is compaed with
 */
 if (n > 0)
 {
