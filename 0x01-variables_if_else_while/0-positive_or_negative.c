@@ -13,9 +13,7 @@ n = rand() - RAND_MAX / 2;
 /**
 *int - showing that it's an integer value
 *srand: function for random number
-*/
-/**
-* it is for probabs
+*n is compared with 0
 */
 if (n > 0)
 {
