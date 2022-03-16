@@ -15,6 +15,9 @@ n = rand() - RAND_MAX / 2;
 *srand: function for random number
 *n is compared with 0
 */
+/**
+*0 - what n is compaed with
+*/
 if (n > 0)
 {
 printf("%d is positive\n", n);
