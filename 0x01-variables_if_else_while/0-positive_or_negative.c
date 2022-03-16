@@ -13,7 +13,7 @@ n = rand() - RAND_MAX / 2;
 /**
 *int - showing that it's an integer value
 *srand: function for random number
-*n is compared with 0
+*if - zero(0) is compared with n
 */
 if (n > 0)
 {
