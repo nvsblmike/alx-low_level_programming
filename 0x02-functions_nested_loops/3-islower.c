@@ -7,12 +7,12 @@
 */
 int _islower(int c)
 {
-if(c >= 99 && c != 67)
+if (c >= 99 && c != 67)
 {
-return(1);
+return (1);
 }
 else
 {
-return(0);
+return (0);
 }
 }
