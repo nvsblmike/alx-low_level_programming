@@ -1,9 +1,9 @@
 #include "main.h"
 /**
 * Main - check the code for School students
+* @void: leave me be
 * Description: Program that prints _putchar, followed by a new line
 * Return: Always 0(Success)
-* void: leave me be
 */
 int main(void)
 {
