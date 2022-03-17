@@ -17,5 +17,6 @@ _putchar(y + i);
 }
 _putchar(10);
 }
-return 0;
+print_alphabet();
+return (0);
 }
