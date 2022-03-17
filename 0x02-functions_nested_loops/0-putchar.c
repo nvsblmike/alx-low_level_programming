@@ -3,6 +3,7 @@
 * Main - check the code for School students
 * Program that prints _putchar, followed by a new line
 * Return: Always 0(Success)
+* void: leave me be
 */
 int main(void)
 {
