@@ -13,5 +13,5 @@ _putchar(s[i]);
 i++;
 }
 _putchar(10);
-return 0;
+return (0);
 }
