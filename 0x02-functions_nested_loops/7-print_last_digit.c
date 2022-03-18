@@ -12,6 +12,6 @@ if (c < 0)
 {
 c = -c;
 }
-_putchar(n + '0');
-return (n);
+_putchar(c + '0');
+return (c);
 }
