@@ -10,5 +10,6 @@ int add(int c, int d)
 {
 c = 4;
 d = 7;
-_putchar(c + d);
+int f = c + d;
+return (f);
 }
