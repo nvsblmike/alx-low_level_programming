@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*is_alpha - FUnction that approves of alphabets as characters
-*@int: Parameter to check
+*_isalpha - FUnction that approves of alphabets as characters
+*@c: Parameter to check
 *Description: is_alpha is a function that checks for alphabetic characters
 *Return: Always  0(Success)
 */
