@@ -6,5 +6,5 @@
 */
 int _strlen(char *s)
 {
-_putchar("%d\n", sizeof(s));
+puts("%d\n", sizeof(s));
 }
