@@ -6,5 +6,10 @@
 */
 void _puts(char *str)
 {
-_puts(str);
+int a;
+while (str[a] != "\0")
+{
+a++;
+}
+puts(str);
 }
