@@ -11,5 +11,5 @@ while (str[a] != "\0")
 {
 a++;
 }
-puts(str);
+_putchar(str[a]);
 }

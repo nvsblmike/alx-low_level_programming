@@ -3,7 +3,7 @@
 *_strlen - sdfjfjfna
 *Description: sjvjnwjnfjw
 *@s:swjdjfwfjwnfjfnw
-* return: always return a
+*Return: always a(Success)
 */
 int _strlen(char *s)
 {
