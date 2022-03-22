@@ -1,4 +1,4 @@
-#include "main.h"
+..#include "main.h"
 /**
 * _puts - wwfhwbfhwfb
 * Description: wwdjgnwjfwnfjw
@@ -10,6 +10,6 @@ int a;
 while (str[a])
 {
 a++;
-_puts(str);
 }
+_puts(str);
 }
