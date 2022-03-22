@@ -11,5 +11,5 @@ while (str[a])
 {
 a++;
 }
-putchar(str);
+puts(str);
 }
