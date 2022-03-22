@@ -12,5 +12,4 @@ while (str[a])
 a++;
 _puts(str);
 }
-return (0);
 }
