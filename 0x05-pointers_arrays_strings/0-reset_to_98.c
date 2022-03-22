@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* - check the code
+* main - check the code
 * reset_to_98 - qwerty
 * Description: qwetyyhg
 * @void: sfjgfjsgjs
