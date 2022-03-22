@@ -6,5 +6,7 @@
 */
 int _strlen(char *s)
 {
-puts("%d\n", sizeof(s));
+int d;
+d = sizeof(s));
+return (d);
 }
