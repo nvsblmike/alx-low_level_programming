@@ -7,5 +7,5 @@
 */
 int _strlen(char *s)
 {
-sizeof(s);
+printf("%d\n", sizeof(s));
 }
