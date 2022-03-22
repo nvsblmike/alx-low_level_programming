@@ -11,5 +11,5 @@ while (str[a])
 {
 a++;
 }
-puts(str);
+_puts(str);
 }
