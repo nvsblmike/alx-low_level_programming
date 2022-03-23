@@ -17,7 +17,7 @@ endindex = len - 1;
 startindex = (endindex / 2) + 1;
 for (b = startindex; b < len; b++)
 {
-_putchar(s[b]);
+_putchar(str[b]);
 }
 _putchar('\n');
 }
