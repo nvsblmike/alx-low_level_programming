@@ -17,7 +17,7 @@ len = i;
 j = len - 1;
 while( j >= 0 )
 {
-_putchar( s[j] );
+puts( s[j] );
 j--;
 }
 _putchar( '\n' );
