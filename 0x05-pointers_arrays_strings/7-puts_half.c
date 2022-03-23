@@ -15,9 +15,9 @@ a++;
 len = a;
 endindex = len - 1;
 startindex = (endindex / 2) + 1;
-for (j = startindex; j <  len; j++)
+for (b = startindex; b < len; b++)
 {
-_putchar(s[j]);
+_putchar(s[b]);
 }
 _putchar('\n');
 }
