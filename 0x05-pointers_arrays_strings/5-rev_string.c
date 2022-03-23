@@ -14,7 +14,7 @@ a++;
 }
 len = a;
 lastindex = len - 1;
-for (b = 0; b < len/2; b++)
+for (b = 0; b < len / 2; b++)
 {
 temp = s[b];
 s[b] = s[lastindex];
