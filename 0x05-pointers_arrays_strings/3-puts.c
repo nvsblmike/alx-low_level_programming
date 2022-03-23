@@ -10,6 +10,6 @@ int a;
 while (str[a])
 {
 a++;
+_puts(str[]);
 }
-_puts(str);
 }
