@@ -3,6 +3,7 @@
 *_isupper - this is the function
 *Description: returns 1 if a character is in the uppercase
 *@c: parameter involved
+*Return: 1 else 0
 */
 int _isupper(int c)
 {
