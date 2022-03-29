@@ -31,5 +31,6 @@ printf("%d", i);
 _putchar(' ');
 }
 }
+_putchar('\n');
 return (0);
 }
