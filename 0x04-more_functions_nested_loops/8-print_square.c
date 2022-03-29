@@ -4,7 +4,7 @@
 *Description: this function prints a square
 *@size: parameter
 */
-void print_square (int size)
+void print_square(int size)
 {
 int i, square;
 if (size <= 0)
