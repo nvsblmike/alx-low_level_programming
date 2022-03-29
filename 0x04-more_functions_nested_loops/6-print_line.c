@@ -9,7 +9,7 @@ void print_line(int n)
 int c = 0;
 while (c < n)
 {
-_putchar('_');
+_putchar(_ + '0');
 c++;
 if ( n == 0 || n < 0)
 {
