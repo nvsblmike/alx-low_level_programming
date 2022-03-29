@@ -1,0 +1,35 @@
+#include <stdio.h>
+/**
+*main - this is the function
+*Description: if you don't know main, then I'm afraid
+*@void: no parameter
+*Return: Always 0(success)
+*/
+int main(void)
+{
+int i, j;
+for (i = 1; i <= 100; i++)
+{
+if (i % 3 == 0 && i % 5 == 0)
+{
+printf("FizzBuzz");
+_putchar(' ');
+}
+else if (i % 5 == 0)
+{
+printf("Buzz");
+_putchar(' ');
+}
+else if (i % 3 == 0)
+{
+printf("Fizz");
+_putchar(' ');
+}
+else
+{
+printf("%d", i);
+_putchar(' ');
+}
+}
+return (0);
+}
