@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - causes an infinite loop
-* printf - ejrjnsjnfslgjns \\o/\n
+* printf: ejrjnsjnfslgjns \\o/\n
 * @void: wjwjnsknssdf
 * Description: wdgfuhgkggkjgghgf
 * Return: 0
