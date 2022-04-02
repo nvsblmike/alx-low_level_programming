@@ -1,16 +1,15 @@
 #include <stdio.h>
 /**
-* main - causes an infinite loo
+* main - causes an infinite loop
 * Description: wdgfuhgkggkjgghgf
-* @void: wigwnbiuwgk
-* printf: wudivsudnvijnsvi
 * Return: 0
 */
 int main(void)
 {
 int i;
-printf("Infinite loop incoming :(\n");/**
-* i = 0;
+printf("Infinite loop incoming :(\n");
+i = 0;
+/**
 * printf - wikfbafkajbfadj
 * Description: ghjnfdkeiurfhgvn
 * while (i < 10)
