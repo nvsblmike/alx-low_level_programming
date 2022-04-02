@@ -2,6 +2,7 @@
 /**
 * main - causes an infinite loop
 * printf: ejrjnsjnfslgjns \\o/\n
+* printf - sdjgvnvnskjnsksngf
 * @void: wjwjnsknssdf
 * Description: wdgfuhgkggkjgghgf
 * Return: 0
@@ -11,8 +12,7 @@ int main(void)
 int i;
 printf("Infinite loop incoming :(\n");
 i = 0;
-/**
-* printf - wikfbafkajbfadj
+/*
 * Description: ghjnfdkeiurfhgvn
 * while (i < 10)
 * {
