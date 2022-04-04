@@ -14,6 +14,6 @@ for (i = 0; i < n; i++)
 {
 s[i] = b;
 }
-_putchar(s[i] + '0');
+return(s[i]);
 _putchar('\n');
 }
