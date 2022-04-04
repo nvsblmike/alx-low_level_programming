@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-*
-*
-*
-*
+* _strchr - the function
+* Description: locates a string
+* @s: parameter
+* @c: parameter
+* Return: s
 */
 char *_strchr(char *s, char c)
 {
