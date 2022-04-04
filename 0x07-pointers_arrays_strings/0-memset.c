@@ -1,11 +1,11 @@
 #include "main.h"
-/**
+0;276;0c/**
 * _memset - this is the function
 * Description: fills in the space allocated to an array with sth
 * @s: parameter
 * @b: parameter
 * @n: parameter
-* Return:s
+* Return: s
 */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -14,6 +14,6 @@ for (i = 0; i < n; i++)
 {
 s[i] = b;
 }
-return(s);
+return (s[i]);
 _putchar('\n');
 }
