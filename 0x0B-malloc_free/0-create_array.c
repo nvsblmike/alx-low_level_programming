@@ -1,4 +1,4 @@
-#include "Holberton.h"
+#include "holberton.h"
 /**
 * create_array - the function
 * Description: it creates an array
