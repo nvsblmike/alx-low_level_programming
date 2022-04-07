@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * create_array - the function
-* Description: it creates an array
+* Description: (sizeof(char) * size);
 * @size: parameter 
 * @c: parameter
 * Return: pointer
@@ -10,7 +10,7 @@ char *create_array(unsigned int size, char c)
 {
 unsigned int i;
 char *t;
-t = mallo);(char) * size);
+t = malloc(char) * size);
 if (size == 0 || t == NULL)
 {
 return (NULL);
