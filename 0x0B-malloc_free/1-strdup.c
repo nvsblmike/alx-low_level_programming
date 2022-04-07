@@ -9,7 +9,7 @@ char *_strdup(char *str)
 {
 char *m;
 m = malloc(sizeof(char) * sizeof(*str));
- int i;
+unsigned int i;
 for (i = 0; i < sizeof(*str); i++)
 {
 m[i] = str[i];
