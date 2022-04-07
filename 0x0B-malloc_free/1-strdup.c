@@ -15,9 +15,10 @@ for (i = 0; i <= sizeof(str); i++)
 m[i] = str[i];
 }
 return (m);
-if (str[i] == 0 || m == NULL)
+if (str == NULL || m == NULL)
 {
 return (NULL);
+_putchar("failed to allocate memory");
 }
 free(m);
 }
