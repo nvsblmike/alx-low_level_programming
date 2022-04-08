@@ -23,5 +23,5 @@ for (len = i, j = 0; len < (i + k), j < k; len++, j++)
 {
 p[len] = src[j];
 }
-return dest;
+return (dest);
 }
