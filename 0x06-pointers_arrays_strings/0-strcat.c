@@ -20,7 +20,7 @@ while (src[k] != '\0')
 {
 k++;
 }
-for (len = i, j = 0; len < (i + k), j < k; len++, j++)
+for (len = i, j = 0; j < k; len++, j++)
 {
 p[len] = src[j];
 }
