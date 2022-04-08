@@ -5,11 +5,12 @@
 * @dest: parameter
 * @src: parameter
 * Return: dest
- */
+*/
 char *_strcat(char *dest, char *src)
 {
 char *p;
-int i = 0, k = 0, j, len;
+int i = 0, k = 0;
+int j, len;
 p = dest;
 while (dest[i] != '\0')
 {
