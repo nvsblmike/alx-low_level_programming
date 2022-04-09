@@ -13,11 +13,11 @@ char *p;
 int i = 0;
 int j, len;
 p = dest;
-while (dest[i] = '\0')
+while (dest[i] != '\0')
 {
 i++;
 }
-for (len = i, j = 0; j <= n; len++, j++)
+for (len = i, j = 0; j < n + 1; len++, j++)
 {
 p[len] = src[j];
 }
