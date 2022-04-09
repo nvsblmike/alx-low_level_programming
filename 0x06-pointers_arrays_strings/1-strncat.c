@@ -17,7 +17,7 @@ while (dest[i] != '\0')
 {
 i++;
 }
-for (len = i, j = 0; j < n + 1; len++, j++)
+for (len = i, j = 0; j < n; len++, j++)
 {
 p[len] = src[j];
 }
