@@ -13,9 +13,9 @@ char *p;
 int i = 0;
 int j;
 p = dest;
-for (i = 0, j = 0; j <= n; i++, j++)
+for (i = 0, j = 0; j < n; i++, j++)
 {
 p[i] = src[j];
 }
-return (dest);
+return (p);
 }
