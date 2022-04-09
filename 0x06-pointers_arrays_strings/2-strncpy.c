@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _strncpy - the function
-* Description: it copies src to dest 
+* Description: it copies src to dest
 * @dest: parameter
 * @src: parameter
 * @n: parameter
@@ -17,5 +17,5 @@ for (i = 0, j = 0; j <= n; i++, j++)
 {
 p[i] = src[j];
 }
-return (p);
+return (dest);
 }
