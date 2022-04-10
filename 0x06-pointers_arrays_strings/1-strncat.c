@@ -21,5 +21,9 @@ for (len = i, j = 0; j < n; len++, j++)
 {
 p[len] = src[j];
 }
+if (s[j] == "")
+{
+p[len] = "";
+}
 return (p);
 }
