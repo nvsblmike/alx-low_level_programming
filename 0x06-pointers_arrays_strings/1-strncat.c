@@ -21,9 +21,6 @@ for (len = i, j = 0; j < n; len++, j++)
 {
 p[len] = src[j];
 }
-if (dest == "" &&src == "")
-{
-return (dest);
-}
+p[len] = '\0';
 return (p);
 }
