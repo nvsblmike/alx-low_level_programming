@@ -4,14 +4,15 @@
 * Description: it reberses an array
 * @a: parameter
 * @n: parameter
-* Retutn: nothing
+* Return: nothing
 */
 void reverse_array(int *a, int n)
 {
 int i = 0;
 int len;
-int b[];
-while (int y != '\0')
+int *b;
+int y;
+while (a[y] != '\0')
 {
 y++;
 }
