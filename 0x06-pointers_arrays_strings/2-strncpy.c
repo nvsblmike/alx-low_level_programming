@@ -16,4 +16,8 @@ for (i = 0, j = 0; j < n; i++, j++)
 dest[i] = src[j];
 }
 return (dest);
+if (src[j] == "" && dest[i] == "")
+{
+return (dest);
+}
 }
