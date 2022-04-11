@@ -8,20 +8,12 @@
 */
 void reverse_array(int *a, int n)
 {
-int i = 0;
-int len;
-int b[n];
-int y;
-while (a[y] != '\0')
+int i;
+int rev;
+for (i = 0; i < (n/2); i++)
 {
-y++;
-}
-for (len = 0; n > i; len++, n--)
-{
-b[len] = a[n];
-}
-for (i = 0, len = 0; i < y; i++, len++)
-{
-a[i] = b[len];
+rev = a[i];
+a[i] = a[n - 1 - i];
+a[n - 1 - i] = rev;
 }
 }
