@@ -34,6 +34,6 @@ a[i] = a[i] + 32;
 }
 }
 }
-return (a);
 }
+return (a);
 }
