@@ -7,17 +7,12 @@
 */
 char *string_toupper(char *a)
 {
-int i, len, y;
-char *p;
-p = a;
-while (a[i] != '\0')
+int i;
+for (i = 0; a[i] != '\0'; i++)
 {
-i++;
-}
-for (len = 0, y = 0; y < i; len++, y++)
+if (a[i] >= 'a'&& a[i] <= 'z')
 {
-p[len] = a[y];
-a[y] = p[len] - 32;
+a[i] = a[i] - 32;
 }
-return (p);
+return a;
 }
