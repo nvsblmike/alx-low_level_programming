@@ -12,7 +12,7 @@ for (i = 0; a[i] != '\0'; i++)
 {
 if (i == 0)
 {
-if (a[i] >= 'a'&& a[i] <= 'z')
+if (a[i] >= 'a' && a[i] <= 'z')
 {
 a[i] = a[i] - 32;
 continue;
@@ -20,7 +20,7 @@ continue;
 if (a[i] == ' ')
 {
 i++;
-if (a[i] >= 'a'&& a[i] <= 'z')
+if (a[i] >= 'a' && a[i] <= 'z')
 {
 a[i] = a[i] - 32;
 continue;
@@ -28,7 +28,7 @@ continue;
 }
 else
 {
-if (a[i] >= 'A'&& a[i] <= 'Z')
+if (a[i] >= 'A' && a[i] <= 'Z')
 {
 a[i] = a[i] + 32;
 }
