@@ -9,6 +9,6 @@ int main(void)
 {
 char *p;
 p = __FILE__;
-printf("%s\n", *p);
+printf("%s\n", p);
 return (0);
 }
