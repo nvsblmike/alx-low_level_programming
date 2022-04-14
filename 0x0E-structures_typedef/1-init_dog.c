@@ -1,0 +1,16 @@
+#include "dog.h"
+/**
+* init_dog - the function
+* Description: it intializes a var of type struct dog
+* @d: parameter
+* @name: parmeter
+* @age: parameter
+* @owner: parameter
+* Return: Nothing
+*/
+void init_dog(struct dog *d, char *name, float age, char *owner)
+{
+d->name = name;
+d->owner = owner;
+(*d).age = age;
+}
