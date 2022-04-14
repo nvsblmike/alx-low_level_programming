@@ -1,0 +1,16 @@
+#ifndef _DOG_H_
+#define _DOG_H_
+/**
+* dog - the function
+* @name: parameter
+* @age: parameter
+* @owner: parameter
+* Description: curates the name, age, owner of dog
+*/
+struct dog
+{
+char *name;
+float age;
+char *owner;
+}
+#endif
