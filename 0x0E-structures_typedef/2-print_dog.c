@@ -31,7 +31,6 @@ printf("Owner: %s\n", d->owner);
 }
 else if (d == NULL)
 {
-printf("%s\n", d->name);
-printf("%s\n", d->owner);
+return;
 }
 }
