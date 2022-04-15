@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdio.h>
 #include <stdlib.h>
 /**
 * print_dog - the function
@@ -18,14 +19,7 @@ else
 {
 printf("Name: %s\n", d->name);
 }
-if (d->age == NULL)
-{
-printf("Age: (nil)");
-}
-else
-{
-printf("Age: %f\n", d->age);
-}
+printf("Age: %.6f\n", d->age);
 if (d->owner == NULL)
 {
 printf("Owner: (nil)");
@@ -37,6 +31,7 @@ printf("Owner: %s\n", d->owner);
 }
 else if (d == NULL)
 {
-printf("");
+printf("%s\n",d->name);
+printf("%s\n", d->owner);
 }
 }
