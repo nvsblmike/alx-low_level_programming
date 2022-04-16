@@ -1,0 +1,14 @@
+#include "main.h"
+#include <stdio.h>
+/**
+* main - the function
+* Description: it prints out no of args
+* @argc: parameter
+* @argv: parameter
+* Return: 0
+*/
+int main(int argc, char *argv[])
+{
+printf("%d\n", argc);
+return (0);
+}
