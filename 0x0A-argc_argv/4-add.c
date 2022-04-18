@@ -10,15 +10,19 @@
 */
 int main(int argc, char *argv[])
 {
+int j;
 int positive = 0, i, gp;
 if (argc > 2)
 {
 for (i = 1; i < argc; i++)
 {
-if (atoi(argv[i]) < '0' && atoi(argv[i]) > '9')
+for (j = 0; j < sizeof(i); j++)
+{
+if (atoi(argv[i][j]) < '0' && atoi(argv[i][j]) > '9')
 {
 printf("Error");
 return (1);
+}
 }
 positive = positive + atoi(argv[i]);
 }
