@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - yhe function
+* main - the function
 * Description: it adds positive numbers
 * @argc: parameter
 * @argv: parameter
@@ -14,17 +14,17 @@ int positive = 0, i;
 if (argc > 2)
 {
 for (i = 1; i < argc; i++)
-{
-positive = positive + atoi(argv[i]);
-}
-if (atoi(argv[i]) >= 'A' && atoi(argv[i]) <= 'z')
+{  
+if (atoi(argv[i]) < '0' && atoi(argv[i]) > '9')
 {
 printf("Error");
 return (1);
 }
+positive = positive + atoi(argv[i]);
+}
 printf("%d\n", positive);
 }
-else if (arg < 2)
+else if (argc < 2)
 {
 printf("0");
 }
