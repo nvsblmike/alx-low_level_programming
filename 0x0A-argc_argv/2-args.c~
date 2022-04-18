@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+/**
+* main - the function
+* Description: it prints values of argv
+* @argc: parameter
+* @argv: parameter
+* Return: 0
+*/
+int main(int argc, char *argv[])
+{
+  argc = argc;
+  int i;
+  for (i = 0; i < argc; i++)
+{
+printf("%s\n", argv[i]);
+}
+  return (0);
+}
