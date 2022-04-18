@@ -20,8 +20,8 @@ if (argv[i][j] < '0' && argv[i][j] > '9')
 {
 printf("Error");
 return (1);
-j++;
 }
+j++;
 positive = positive + atoi(argv[i]);
 }
 printf("%d\n", positive);
