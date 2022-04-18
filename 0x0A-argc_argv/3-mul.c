@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 #include <stdio.h>
 /**
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
 int xply = 0;
 if (argc > 1)
 {
-xply = argv[1] * argv[2];
+xply = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", xply);
 }
 else
