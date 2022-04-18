@@ -10,11 +10,11 @@
 */
 int main(int argc, char *argv[])
 {
-int positive = 0, i;
+int positive = 0, i, gp;
 if (argc > 2)
 {
 for (i = 1; i < argc; i++)
-{  
+{
 if (atoi(argv[i]) < '0' && atoi(argv[i]) > '9')
 {
 printf("Error");
@@ -26,7 +26,8 @@ printf("%d\n", positive);
 }
 else if (argc < 2)
 {
-printf("0");
+gp = 0;
+printf("%d\n", gp);
 }
 return (0);
 }
