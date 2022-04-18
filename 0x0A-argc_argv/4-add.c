@@ -16,13 +16,11 @@ if (argc > 2)
 {
 for (i = 1; i < argc; i++)
 {
+if (argv[i][j] < '0' && argv[i][j] > '9')
 {
-if (atoi(argv[i][j]) < '0' && atoi(argv[i][j]) > '9')
-{
-j++;
 printf("Error");
 return (1);
-}
+j++;
 }
 positive = positive + atoi(argv[i]);
 }
