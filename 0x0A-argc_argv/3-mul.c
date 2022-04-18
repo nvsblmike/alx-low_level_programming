@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 int xply = 0;
-if (argc > 1)
+if (argc > 2)
 {
 xply = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", xply);
