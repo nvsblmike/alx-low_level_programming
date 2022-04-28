@@ -15,7 +15,7 @@ int _atoi(char *s)
 
 	for (i = 0; *(s + i) >= '0' && *(s + i) <= '9'; i++)
 	{
-		if (*(s + i) != NULL)
+		if (*(s + i) != '')
 		{
 			n = 10 * n + (*(s + i) - '0');
 		}
