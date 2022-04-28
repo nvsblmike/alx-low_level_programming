@@ -11,7 +11,7 @@
 int _atoi(char *s)
 {
 	int i, n;
-	n = 0;
+	n = i = 0;
 
 	while (s[i] != '\0')
 	{
@@ -23,7 +23,8 @@ int _atoi(char *s)
 		{
 			n = 10 * n + (-1)*(s[i] - '0');
 		}
-		else{
+		else
+		{
 			return (0);
 		}
 	}
