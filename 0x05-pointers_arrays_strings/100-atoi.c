@@ -15,10 +15,12 @@ int _atoi(char *s)
 
 	for (i = 0; *(s + i) >= '0' && *(s + i) <= '9'; i++)
 	{
-		if (*(s + i) == NULL)
-			return (0);
+		if (*(s + i) != NULL)
+		{
+			n = 10 * n + (*(s + i) - '0');
+		}
 		else {
-		n = 10 * n + (*(s + i) - '0');
+			return (0);
 		}
 	}
 	return (n);
