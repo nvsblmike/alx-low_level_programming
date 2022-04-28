@@ -13,12 +13,12 @@ int _atoi(char *s)
 	int i, n;
 	n = 0;
 
-	for (i = 0; s[i] >= '0' && s[i] <= '9'; i++)
+	for (i = 0; *(s + i) >= '0' && *(s + i) <= '9'; i++)
 	{
-		if (s[i] == NULL)
+		if (*(s + i) == NULL)
 			return (0);
 		else {
-		n = 10 * n + (s[i] - '0');
+		n = 10 * n + (*(s + i) - '0');
 		}
 	}
 	return (n);
