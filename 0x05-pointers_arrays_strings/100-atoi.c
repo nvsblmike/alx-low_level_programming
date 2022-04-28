@@ -21,7 +21,7 @@ int _atoi(char *s)
 		}
 		else if (s[i] == '-')
 		{
-			n = 10 * (-1*n) + (*(s + i) - '0');
+			n = 10 * (-1 * n) + (*(s + i + 1) - '0');
 		}
 		else{
 			return (0);
