@@ -19,7 +19,11 @@ int _atoi(char *s)
 		{
 			n = 10 * n + (*(s + i) - '0');
 		}
-		else {
+		else if (s[i] == '-')
+		{
+			n = 10 * (-1*n) + (*(s + i) - '0');
+		}
+		else{
 			return (0);
 		}
 	}
