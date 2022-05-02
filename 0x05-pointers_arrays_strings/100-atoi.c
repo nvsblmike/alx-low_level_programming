@@ -10,7 +10,7 @@
 
 int _atoi(char *s)
 {
-	long int i, n, sign;
+	signed int i, n, sign;
 
 	i = 0;
 	while (s[i] == ' ')
