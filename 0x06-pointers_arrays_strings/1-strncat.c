@@ -15,10 +15,10 @@ while (dest[i] != '\0')
 {
 i++;
 }
-for (len = i, j = 0; j < n; len++, j++)
+for (len = i, j = 0; j < n && *src != '\0'; len++, j++)
 {
-dest[len] = src[j];
+*(dest + len) = *(src + j);
 }
-dest[len] = '\0';
+*(dest + len) = '\0';
 return (dest);
 }
