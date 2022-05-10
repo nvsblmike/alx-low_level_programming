@@ -8,15 +8,23 @@
 char *cap_string(char *a)
 {
 int i;
-for (i = 0; a[i] != '\0'; i++)
+for ( ; *a != '\0'; a++)
 {
-if (a[i] >= 'a' && a[i] <= 'z')
+if (*a >= ' ' && *a <= '/')
+a++;
+if (*a >= ':' && *a <= '@')
+a++;
+else if (*a >= 'a' && *a <= 'z')
 {
-if ((a[i - 1] < 'A' || a[i - 1] > 'z') && a[i - 1] != '-')
-{
-a[i] = a[i] - 32;
+*a = *a - 32;
 }
+else if (*a >= '0' && *a <= '9')
+{
+*a = *a;
 }
+else
+{
+a++;
 }
 return (a);
 }
