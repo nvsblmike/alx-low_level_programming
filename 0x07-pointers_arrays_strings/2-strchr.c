@@ -8,13 +8,22 @@
 */
 char *_strchr(char *s, char c)
 {
-int i;
-for (i = 0; s[i] >= '\0'; i++)
-{
-if (s[i] == c)
-{
-return (&s[i]);
-}
-}
-return (NULL);
+	int i, j, len;
+
+	i = j = len = 0;
+	while (s[i] != '\0')
+		i++;
+	len = i;
+	while (s[j] != '\0')
+	{
+		if (s[j] == c)
+		{
+			while (j < len)
+			{
+				_putchar(s[j]);
+				j++;
+			}
+		}
+	}
+	return (s);
 }
