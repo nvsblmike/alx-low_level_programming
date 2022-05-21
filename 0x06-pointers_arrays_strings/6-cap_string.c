@@ -2,29 +2,30 @@
 /**
 * cap_string - the function
 * Description: it capitalizes words
-* @a: parameter
+* @s: parameter
 * Return: pointer
 */
-char *cap_string(char *a)
+char *cap_string(char *s)
 {
-int i;
-for ( ; *a != '\0'; a++)
-{
-if (*a >= ' ' && *a <= '/')
-a++;
-if (*a >= ':' && *a <= '@')
-a++;
-else if (*a >= 'a' && *a <= 'z')
-{
-*a = *a - 32;
-}
-else if (*a >= '0' && *a <= '9')
-{
-*a = *a;
-}
-else
-{
-a++;
-}
-return (a);
+	int i, len;
+
+	len = 0;
+	while (s[len] != '\0')
+	{
+		len++;
+	}
+	for (i = 0; i < len; i++)
+	{
+		if (s[i - 1] >= ' ' && s[i - 1] <= '/' && s[i]  >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 32;
+		else if (s[i - 1] >= ':' && s[i - 1] <= '@' && s[i]  >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 32;
+		else if (s[i - 1] >= '[' && s[i - 1] <= '\'' && s[i]  >= 'a' && s[i] <= 'z')
+			s[i] -= 32;
+		else if (s[i - 1] >= '{' && s[i - 1] <= '~' && s[i]  >= 'a' && s[i] <= 'z')
+			s[i] -= 32;
+		else
+			s[i] = s[i];
+	}
+	return (s);
 }
