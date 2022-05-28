@@ -1,3 +1,5 @@
+#include <unistd.h>
+#include <stdlib.h>
 #include "main.h"
 /**
 * _strchr - the function
@@ -9,10 +11,15 @@
 char *_strchr(char *s, char c)
 {
 	int i;
+	char *p;
+	p = s;
 
-	for (i = 0; s[i] != '\0'; i++)
-		if (c == s[i])
-			return (s);
-		else if (c != '\0')
+	for (i = 0; p[i] != '\0'; i++)
+	{
+		if (c == p[i])
+			s[i] = p[i];
+		else if (c != p[i])
 			return (NULL);
+	}
+	return (s);
 }
