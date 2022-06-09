@@ -13,7 +13,9 @@ char *cap_string(char *s)
 		s[0] = s[0] - 32;
 	for (i = 1; s[i] != '\0'; i++)
 	{
-		if (s[i - 1] >= ' ' && s[i - 1] <= '/' && s[i]  >= 'a' && s[i] <= 'z')
+		if (s[i - 1] >= ' ' && s[i - 1] <= ',' && s[i] >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 32;
+		if (s[i - 1] >= '.' && s[i - 1] <= '/' && s[i] >= 'a' && s[i] <= 'z')
 			s[i] = s[i] - 32;
 		else if (s[i - 1] >= ':' && s[i - 1] <= '@' && s[i]  >= 'a' && s[i] <= 'z')
 			s[i] = s[i] - 32;
@@ -23,8 +25,6 @@ char *cap_string(char *s)
 			s[i] -= 32;
 		else if ((s[i - 1] == '\n') && s[i]  >= 'a' && s[i] <= 'z')
 			s[i] = s[i] - 32;
-		else if (s[i - 1] == '-')
-			s[i] = s[i];
 		else
 			s[i] = s[i];
 	}
