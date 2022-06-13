@@ -17,8 +17,9 @@ char *_strchr(char *s, char c)
 	{
 		if (c == s[i])
 			g = &s[i];
+		else if (c != s[i] && g == NULL)
+			return (NULL);
 	}
-	if (g == NULL)
-		return (NULL);
+	g[i] = '\0';
 	return (g);
 }
