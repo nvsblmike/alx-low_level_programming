@@ -17,9 +17,9 @@ char *_strchr(char *s, char c)
 	{
 		if (c == s[i])
 			g = &s[i - 1];
+		else
+			return (NULL);
 	}
 	s[i] = '\0';
-	if (c != s[i])
-		return (NULL);
 	return (g);
 }
