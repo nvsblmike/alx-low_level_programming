@@ -19,7 +19,7 @@ char *_strchr(char *s, char c)
 			g = &s[i - 1];
 	}
 	s[i] = '\0';
-	if (c != *s++)
+	if (c != s[i])
 		return (NULL);
 	return (g);
 }
