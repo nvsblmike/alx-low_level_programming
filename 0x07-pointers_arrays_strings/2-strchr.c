@@ -16,10 +16,10 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (c == s[i])
-			g = &s[i];
-		else if (c != s[i] && g == NULL)
-			return (NULL);
+			g = &s[i - 1];
 	}
-	g[i] = '\0';
+	s[i] = '\0';
+	if (c != *s++)
+		return (NULL);
 	return (g);
 }
