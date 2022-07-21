@@ -14,6 +14,7 @@
 */
 void _print_rev_recursion(char *s)
 {
+	int length;
 	void printer_rev(char s[], int i, int len);
 	int _strllen(char *s, int length);
 
