@@ -13,10 +13,14 @@
 */
 void _print_rev_recursion(char *s)
 {
+	int g;
 	void printer_rev(char s[], int i, int len);
-	printer_rev(s, 0, strlen(s));
+
+	while (s[i] != '\0')
+		g++;
+	printer_rev(s, 0, g);
 }
-void printer_rev(char *s)
+void printer_rev(char s[], int i, int len)
 {
 	int c, j;
 
