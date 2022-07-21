@@ -9,14 +9,15 @@
 * @c: parameter
 * @j: parameter
 * @s: parameter
+* @length: parameter
 * void
 */
 void _print_rev_recursion(char *s)
 {
-	int g;
 	void printer_rev(char s[], int i, int len);
+	int _strllen(char *s, int length);
 
-	int reg = _putchar(s);
+	int reg = _strllen(s, length);
 	printer_rev(s, 0, reg);
 }
 void printer_rev(char s[], int i, int len)
@@ -31,4 +32,13 @@ void printer_rev(char s[], int i, int len)
 		s[j] = c;
 	printer_rev(s, ++i, len);
 	}
+}
+int _strllen(char *s, int length)
+{
+	length = 0;
+
+	if (s[length] == '\0')
+		return length;
+	length++;
+	return (_strllen(s, length);
 }
