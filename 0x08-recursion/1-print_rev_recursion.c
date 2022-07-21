@@ -1,26 +1,31 @@
 #include "main.h"
 /**
 * _print_rev_recursion - the function
+* Description: it also reverses a string
+* printer_rev - another function
 * Description: it reverses a string
+* @i: parameter
+* @len: parameter
+* @c: parameter
+* @j: parameter
 * @s: parameter
 * void
 */
 void _print_rev_recursion(char *s)
 {
-	int c, i, t, j, len;
+	void printer_rev(char s[], int i, int len);
+	printer_rev(s, 0, strlen(s));
+}
+void printer_rev(char *s)
+{
+	int c, j;
 
-	t = 0;
-	while (s[t] != '\0')
-		t++;
-	len = t;
-	i = 0;
 	j = len - (i + 1);
 	if (i < j)
 	{
 		c = s[i];
 		s[i] = s[j];
 		s[j] = c;
+	printer_rev(s, ++i, len);
 	}
-	i = 1;
-	_print_rev_recursion(s++);
 }
