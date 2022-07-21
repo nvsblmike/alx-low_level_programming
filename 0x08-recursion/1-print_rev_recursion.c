@@ -16,7 +16,7 @@ void _print_rev_recursion(char *s)
 	int g;
 	void printer_rev(char s[], int i, int len);
 
-	while (s[i] != '\0')
+	while (s[g] != '\0')
 		g++;
 	printer_rev(s, 0, g);
 }
