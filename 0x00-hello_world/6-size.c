@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
-* main - function
+/**
+* main - the function
 * Description: it prints the sizes of types
 * @void: no parameter
 * Return: always 0
