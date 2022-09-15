@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
 * main - function
-* Description: it 
+* Description: it
 * @void: no parameter
 * Return: always 0
 */
@@ -25,11 +25,15 @@ int main(void)
 	}
 	else if (b < 6 && b > 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0", n, b);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, b);
 	}
 	else if (b == 0)
 	{
-		printf("Last digit of %d is %d and is 0", n, b);
+		printf("Last digit of %d is %d and is 0\n", n, b);
+	}
+	else if (n < 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, (-1)b);
 	}
 	return (0);
 }
