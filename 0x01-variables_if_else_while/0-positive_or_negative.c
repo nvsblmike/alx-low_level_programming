@@ -1,8 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+#include <stdio.h>
 /* betty style doc for function main goes there */
+/**
+* main - function
+* Description: it prints whethera number is +ve, -ve or zero
+* @void: no parameter
+* Return: always 0
+*/
+
 int main(void)
 {
 	int n;
