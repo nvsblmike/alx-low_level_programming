@@ -18,6 +18,7 @@ int main(void)
 	int f = 'h';
 	int g = 'a';
 	int h = 'r';
+	int i = '\n';
 
 	_putchar(a);
 	_putchar(b);
@@ -27,5 +28,6 @@ int main(void)
 	_putchar(f);
 	_putchar(g);
 	_putchar(h);
+	_putchar(i);
 	return (0);
 }
