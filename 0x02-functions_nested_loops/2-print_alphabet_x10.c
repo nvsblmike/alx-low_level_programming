@@ -14,15 +14,13 @@ void print_alphabet_x10(void)
 	int c = 'a';
 	int i = '\n';
 
-	while (out < 10)
+	for (out = 0; out < 10; out++)
 	{
 		while (c >= a && c <= b)
 		{
 			_putchar(c);
 			c++;
 		}
-
-		out = out + 1;
 	}
 	_putchar(i);
 }
