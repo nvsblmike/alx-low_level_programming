@@ -13,7 +13,7 @@ void print_alphabet(void)
 	int i = '\n';
 	int c = 'a';
 
-	while (c >= 'a' && c <= 'b')
+	while (c >= a && c <= b)
 	{
 		_putchar(c);
 	}
