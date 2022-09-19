@@ -3,7 +3,7 @@
 * print_alphabet - function
 * Description: prints alphabet in lower case
 * @void: no parameter
-* Return: always 0
+* Return: always nothing
 */
 
 void print_alphabet(void)
@@ -18,5 +18,4 @@ void print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar(i);
-	return (0);
 }
