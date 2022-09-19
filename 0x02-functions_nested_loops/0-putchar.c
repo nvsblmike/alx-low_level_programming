@@ -10,13 +10,22 @@
 
 int main(void)
 {
-	_putchar(_);
-	_putchar(p);
-	_putchar(u);
-	_putchar(t);
-	_putchar(c);
-	_putchar(h);
+	int a = _;
+	int b = p;
+	int c = u;
+	int d = t;
+	int e = c;
+	int f = h;
+	int g = a;
+	int h = r;
+
 	_putchar(a);
-	_putchar(r);
+	_putchar(b);
+	_putchar(c);
+	_putchar(d);
+	_putchar(e);
+	_putchar(f);
+	_putchar(g);
+	_putchar(h);
 	return (0);
 }
