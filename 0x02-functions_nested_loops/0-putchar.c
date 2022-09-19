@@ -10,14 +10,14 @@
 
 int main(void)
 {
-	int a = _;
-	int b = p;
-	int c = u;
-	int d = t;
-	int e = c;
-	int f = h;
-	int g = a;
-	int h = r;
+	int a = '_';
+	int b = 'p';
+	int c = 'u';
+	int d = 't';
+	int e = 'c';
+	int f = 'h';
+	int g = 'a';
+	int h = 'r';
 
 	_putchar(a);
 	_putchar(b);
