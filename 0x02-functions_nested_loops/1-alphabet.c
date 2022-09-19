@@ -16,6 +16,7 @@ void print_alphabet(void)
 	while (c >= a && c <= b)
 	{
 		_putchar(c);
+		c++;
 	}
 	_putchar(i);
 }
