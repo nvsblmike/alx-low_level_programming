@@ -10,6 +10,7 @@ int _abs(int n)
 {
 	int r;
 	int v;
+
 	r = 0;
 	v = -1;
 
